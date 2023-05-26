@@ -69,6 +69,65 @@
     height: 8vh;
     width: 40%;
 }
+
 .cuerpo{
-    background-color: rgba(255, 255, 255, 0.89);
+    grid-row-start: 2;
+    background-color: rgb(240, 240, 240);
+    display: grid;
+    grid-template-columns: 5% 45% 5% 35% 10%;
+    grid-template-rows: 15% 10% 10% 50% 15%;
+}
+.texto1{
+    color: rgb(29, 0, 110);
+    font-size: 5vh;
+    font-style:unset;
+    text-align: justify;
+}
+#t1{
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+#t2{
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+#t3{
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+#t4{
+    grid-column-start: 4;
+    grid-row-start: 3;
+    font-size: 4vh;
+}
+.imagen{
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+.imagen img {
+    height: 40vh;
+    width: 100%;
+}
+.registro{
+    grid-column-start: 4;
+    grid-row-start: 4;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.texto3{
+    grid-column-start: 1;
+    color: rgb(29, 0, 110);
+    font-size: 2vh;
+    font-style:unset;
+    text-align: right;    
+    }
+.barras2{
+    grid-column-start: 2;
+    background-color: white;
+    height: 3vh;
+    width: 100%;
+}
+.b1{
+    grid-row-start: 1;
 }
