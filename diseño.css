@@ -7,11 +7,68 @@
     height: 100vh;
     background-color: bisque;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 6fr;
+    grid-template-rows: 15% 85%;
+}
+.barras{
+    background-color: white;
+    border: 5px;
+    border-color: brown;
+    height: 5vh;
+    width: 85%;
+    font-size: 90%;
+}
+.boton{
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: blue;
+    border: 5px;
+    border-color: black;
+    color: aliceblue;
+}
+.botoncon{
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: 35% 65%;
+    grid-column-start: 5;
+    grid-row-start: 2;
+}
+.contebarra{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 35% 65%;
+}
+.texto{
+    color: aliceblue;
+    grid-row-start: 1;
+}
+.corr{
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+.con{
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+.correo{
+    grid-row-start: 2;
+}
+.contra{
+    grid-row-start: 2;
 }
 .head{
-    background-color: blue;
+    background-color: hsl(241, 66%, 46%);
+    display:grid;
+    grid-template-columns: 5% 50% 15% 15% 15%;
+    grid-template-rows: 15% 70% 15%;
+    padding: 10px;
+}
+.head img{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    height: 8vh;
+    width: 40%;
 }
 .cuerpo{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.89);
 }
