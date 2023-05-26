@@ -21,9 +21,8 @@
     grid-row-start: 2;
     grid-column-start: 1;
     grid-column-end: 2;
-    background-color: blue;
-    border: 5px;
-    border-color: black;
+    background-color: rgb(104, 104, 219);
+    border-bottom: 2px solid white;
     color: aliceblue;
 }
 .botoncon{
@@ -57,7 +56,7 @@
     grid-row-start: 2;
 }
 .head{
-    background-color: hsl(241, 66%, 46%);
+    background-color: hsl(241, 49%, 40%);
     display:grid;
     grid-template-columns: 5% 50% 15% 15% 15%;
     grid-template-rows: 15% 70% 15%;
@@ -72,10 +71,10 @@
 
 .cuerpo{
     grid-row-start: 2;
-    background-color: rgb(240, 240, 240);
+    background: linear-gradient(rgb(255, 255, 255), rgb(180, 194, 212));
     display: grid;
     grid-template-columns: 5% 45% 5% 35% 10%;
-    grid-template-rows: 15% 10% 10% 50% 15%;
+    grid-template-rows: 10% 10% 10% 50% 20%;
 }
 .texto1{
     color: rgb(29, 0, 110);
@@ -112,22 +111,56 @@
     grid-column-start: 4;
     grid-row-start: 4;
     display: grid;
-    grid-template-columns: 35% 65%;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 30% 70%;
+}
+.regis1{
+    display: grid;
+    grid-column-start: 1;
+    grid-template-rows: 16.7% 16.7% 16.7% 16.7% 16.7% 16.7% ;
+}
+.regis2{
+    display: grid;
+    grid-column-start: 2;
+    grid-template-rows: 16.7% 16.7% 16.7% 16.7% 16.7% 16.7% ;
 }
 .texto3{
-    grid-column-start: 1;
+    grid-row-start: 1 / 6;
     color: rgb(29, 0, 110);
     font-size: 2vh;
     font-style:unset;
-    text-align: right;    
-    }
+    text-align: right;
+}
 .barras2{
-    grid-column-start: 2;
+    grid-row-start: 1 / 4;
     background-color: white;
     height: 3vh;
-    width: 100%;
+    width: 80%;
 }
-.b1{
+.botonsign{
+    grid-row-start: 5;
+    grid-column-start: 4;
+    display: grid;
+    grid-template-columns: auto 20% auto;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.botonsi{
     grid-row-start: 1;
+    grid-column-start: 2;
+    color: white;
+    background-color: rgb(98, 201, 98);
+    border-bottom: 2px solid black;
+}
+.select1{
+    grid-row-start: 5;
+    height: 4vh;
+    width: 40%;
+}
+.formulario{
+    grid-row-start: 6;
+    display: grid;
+    grid-template-columns: 20% 20% 20% auto;
+}
+.select2{
+    height: 4vh;
+    width: 80%;
 }
